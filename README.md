@@ -1,7 +1,8 @@
 # Juego-Snake
 Codigo del juego del Snake en Netbeans
-clase entidad:
-ublic class Entidad {
+//clase entidad:
+
+    public class Entidad {
     private int x,y,size;
     
     public Entidad(int size){
@@ -42,8 +43,10 @@ ublic class Entidad {
     }
     
 }
-Clase panel:
-public class Panel extends JPanel implements Runnable, KeyListener {
+//Clase panel:
+
+
+    public class Panel extends JPanel implements Runnable, KeyListener {
 
     public static final int WIDTH = 400;
     public static final int HEIGHT = 400;
@@ -289,8 +292,9 @@ public class Panel extends JPanel implements Runnable, KeyListener {
     }
 
 }
-clase Snake:
-public class Snake {
+//clase Snake:
+
+    public class Snake {
 
     /**
      * @param args the command line arguments
